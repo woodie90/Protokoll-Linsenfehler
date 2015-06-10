@@ -1,0 +1,63 @@
+\documentclass[11pt,fleqn]{article}
+\usepackage{pgf,tikz}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage[backend=biber, citestyle=alphabetic, style=alphabetic]{biblatex}
+\usepackage{pdfpages}
+
+\bibliography{literatur.bib}
+
+\parindent 0pt
+\parskip 10pt
+\newcommand{\degre}{\ensuremath{^\circ}}
+
+\title{Technische Optik \\ Praktikum Linsenfehler}
+\date{\today}
+\author{Hans Herrmann \and Felix Kayser \and Hermann Pommerenke \and Tino Steinmetz}
+
+\begin{document}
+	\pagenumbering{gobble}
+	\begin{figure}[t]
+	    \centering
+	    \includegraphics[width=115mm]{img/UNI-Logo_Siegel_4c_115mm_07.png}
+	\end{figure}
+
+	\maketitle
+	
+	\thispagestyle{empty}
+
+	\newpage
+	\pagenumbering{Roman}
+	\pagestyle{headings}
+	\tableofcontents
+	
+	\everymath{\displaystyle} % Jede Formel im Displaystyle
+	
+	\newpage
+	\pagenumbering{arabic}
+
+	\input{./einleitung.tex}
+	
+	\clearpage
+	\input{./versuchsaufbau.tex}
+	
+	\clearpage
+	\input{./auswertung.tex}
+	
+	\clearpage
+	\input{./anhang.tex}
+	
+\end{document}
