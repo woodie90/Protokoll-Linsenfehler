@@ -1,1 +1,32 @@
 \section{Einleitung}
+
+Die Ausbreitung eines Lichtstrahls lässt sich prinzipiell durch folgende Geradengleichung beschreiben:
+\begin{align*}
+y(z)=y_1 + z \cdot \tan \Theta
+\end{align*}
+
+Für kleine Winkel gilt $\tan\Theta \approx \Theta$ bzw. $\sin \Theta \approx \Theta $.Dies lässt sich leicht durch die Reihenentwicklung der Winkelfunktionen zeigen:
+\begin{align*}
+\sin \Theta = \Theta - \frac{1}{3!}\Theta^3 + \frac{1}{5!}\Theta^5 - ... \\
+\tan \Theta = \Theta + \frac{1}{3}\Theta^3 + \frac{2}{15}\Theta^5 + ...
+\end{align*}
+
+Die Geradengleichung kann folglich für viele optische Systeme, deren Strahlen sich nahe der optischen Achse ausbreiten, durch eine paraxiale Näherung 
+\begin{align*}
+y(z)=y_1 + z \cdot \Theta
+\end{align*}
+ausgedrückt werden.(Theorie 1. Ordnung) 
+
+Berücksichtigt man zusätzlich noch den 2. Summanden der Reihenentwicklung ( kubische Abhängigkeit vom Winkel) ergibt sich die Theorie der 3. Ordnung :
+\begin{align*}
+y(z)=y_1 + z \cdot (\Theta + \frac{1}{3}\Theta^3)
+\end{align*}
+Im Vergleich zur paraxialen Näherung können hierbei 6 einfache Aberrationen unterschieden werden, 5 davon sind achromatisch:
+\begin{description}
+	\item[sphärische Aberration]
+	\item[Koma]
+	\item[Astigmatismus]
+	\item[Bildfeldwölbung]
+	\item[Verzeichnung]
+	\item[chromatische Aberration]
+\end{description}
