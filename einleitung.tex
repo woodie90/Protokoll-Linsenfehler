@@ -2,28 +2,28 @@
 
 Die Ausbreitung eines Lichtstrahls lässt sich prinzipiell durch folgende Geradengleichung beschreiben:
 \begin{align*}
-y(z)=y_1 + z \cdot \tan \Theta.
+y(z)=y_1 + z \cdot \tan \theta.
 \end{align*}
 
-Für kleine Winkel gilt $\tan\Theta \approx \Theta$ bzw. $\sin \Theta \approx \Theta $. Dies lässt sich leicht durch die Reihenentwicklung der Winkelfunktionen zeigen:
+Für kleine Winkel gilt $\tan\theta \approx \theta$ bzw. $\sin \theta \approx \theta $. Dies lässt sich leicht durch die Reihenentwicklung der Winkelfunktionen zeigen:theta
 \begin{align*}
-\sin \Theta &= \Theta - \frac{1}{3!}\Theta^3 + \frac{1}{5!}\Theta^5 - \cdots \\
-\tan \Theta &= \Theta + \frac{1}{3}\Theta^3 + \frac{2}{15}\Theta^5 + \cdots.
+\sin \theta &= \theta - \frac{1}{3!}\theta^3 + \frac{1}{5!}\theta^5 - \cdots \\
+\tan \theta &= \theta + \frac{1}{3}\theta^3 + \frac{2}{15}\theta^5 + \cdots.
 \end{align*}
 
 Die Geradengleichung kann folglich für viele optische Systeme, deren Strahlen sich nahe der optischen Achse ausbreiten, durch eine paraxiale Näherung 
 \begin{align*}
-y(z)=y_1 + z \cdot \Theta
+y(z)=y_1 + z \cdot \theta
 \end{align*}
 ausgedrückt werden (Theorie 1. Ordnung).
 
 Berücksichtigt man zusätzlich noch den 2. Summanden der Reihenentwicklung (kubische Abhängigkeit vom Winkel), ergibt sich die Theorie 3. Ordnung:
 \begin{align*}
-y(z)=y_1 + z \cdot \left( \Theta + \frac{1}{3}\Theta^3\right) 
+y(z)=y_1 + z \cdot \left( \theta + \frac{1}{3}\theta^3\right) 
 \end{align*}
 Im Vergleich zur paraxialen Näherung können hierbei 6 einfache Aberrationen unterschieden werden; 5 davon sind achromatisch:
 \begin{description}
-	\item[Sphärische Aberration] bezeichnet den Abstand zwischen dem axialen Schnittpunkt eines gebrochenen Strahls und dem paraxialen Brennpunkt $F'$ eines optischen Systems. Durch diesen Abstand, innerhalb dessen die gebrochenen Strahlen die optische Achse schneiden, lässt sich mit der betreffenden Optik keine absolut scharfe Abbildung erzeugen. Der Fehler entsteht durch die Verwendung einfach herzustellender sphärischer Linsen. Er kann vollständig vermieden werden, wenn asphärische Komponenten eingesetzt werden. Eine Linse, die keinerlei sphärische Abberation erzeugt, d.h. sämtliche achsenparallele Strahlen in $F'$ bricht, hat eine durch ein Polynom 4. Grades beschriebene Oberfläche, die nur schwer zu fertigen ist. \cite[416ff.]{hecht2014optik}, \cite[Vol. 1, 27-2ff.]{feynman2011flp}
+	\item[Sphärische Aberration] bezeichnet den Abstand zwischen dem axialen Schnittpunkt eines gebrochenen Strahls und dem paraxialen Brennpunkt $F'$ eines optischen Systems. Durch diesen Abstand, innerhalb dessen die gebrochenen Strahlen die optische Achse schneiden, lässt sich mit der betreffenden Optik keine absolut scharfe Abbildung erzeugen. Der Fehler entsteht durch die Verwendung einfach herzustellender sphärischer Linsen. Er kann vollständig vermieden werden, wenn asphärische Komponenten eingesetzt werden. Eine Linse, die keinerlei sphärische Aberration erzeugt, d.h. sämtliche achsenparallele Strahlen in $F'$ bricht, hat eine durch ein Polynom 4. Grades beschriebene Oberfläche, die nur schwer zu fertigen ist. \cite[416ff.]{hecht2014optik}, \cite[Vol. 1, 27-2ff.]{feynman2011flp}
 	\item[Astigmatismus] tritt bei Objektpunkten auf, die nicht auf der optischen Achse liegen. Diese Erscheinung basiert darauf, dass sich die Geometrie der schräg auf das optische System einfallenden Strahlen in zwei senkrecht aufeinander stehende Ebenen aufteilen lässt, die unterschiedliche Brennweiten besitzen. Die Meridionalebene ist als die Ebene definiert, die sowohl den Hauptstrahl als auch die optische Achse enthält. Die Sagittalebene ist demzufolge die Ebene, die den Hauptstrahl enthält und senkrecht auf der Meridionalebene steht. Ein mit dem Astigmatismus behaftetes optisches System besitzt keine einzelnen Brennpunkt, sondern zwei senkrecht zueinander stehende Brennlinien. \cite[428ff.]{hecht2014optik}
 	\item[Koma] bezeichnet einen Abbildungsfehler der bei Objektpunkten, die sich nicht auf der optischen Achse befinden, zu einem zum Außenrand der Optik gerichteten "`Schweif"' führt. Sie resultiert daraus, dass die Hauptebenen eines optischen Systems nur in achsennaher Umgebung ebene Flächen sind. Dadurch unterscheiden sich die Äquivalentbrennweiten und Transversalvergrößerungen für Strahlen, die die außeraxiale Bereiche einer Linse durchlaufen. \cite[423ff.]{hecht2014optik}
 	\item[Bildfeldwölbung]
