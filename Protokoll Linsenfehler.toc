@@ -10,4 +10,3 @@
 \contentsline {subsection}{\numberline {3.4}Bildfeldw\IeC {\"o}lbung}{4}
 \contentsline {subsection}{\numberline {3.5}Verzeichnung}{5}
 \contentsline {subsection}{\numberline {3.6}Chromatische Aberration}{5}
-\contentsline {section}{\numberline {4}Anhang}{9}
