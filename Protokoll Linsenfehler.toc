@@ -3,11 +3,11 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {2}Versuchsaufbau}{3}
-\contentsline {section}{\numberline {3}Auswertung}{4}
+\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung und Auswertung}{4}
 \contentsline {subsection}{\numberline {3.1}Sph\IeC {\"a}rische Aberration}{4}
-\contentsline {subsection}{\numberline {3.2}Koma}{4}
-\contentsline {subsection}{\numberline {3.3}Astigmatismus}{4}
+\contentsline {subsection}{\numberline {3.2}Astigmatismus}{4}
+\contentsline {subsection}{\numberline {3.3}Koma}{4}
 \contentsline {subsection}{\numberline {3.4}Bildfeldw\IeC {\"o}lbung}{4}
-\contentsline {subsection}{\numberline {3.5}Verzeichnung}{4}
-\contentsline {subsection}{\numberline {3.6}Chromatische Aberration}{4}
-\contentsline {section}{\numberline {4}Anhang}{8}
+\contentsline {subsection}{\numberline {3.5}Verzeichnung}{5}
+\contentsline {subsection}{\numberline {3.6}Chromatische Aberration}{5}
+\contentsline {section}{\numberline {4}Anhang}{9}
